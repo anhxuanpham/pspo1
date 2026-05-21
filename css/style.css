@@ -431,3 +431,16 @@ body {
   .quiz-result__score { flex-direction: column; text-align: center; }
   .quiz-result__score > div:last-child { text-align: center; }
 }
+
+/* QUIZ v2 additions */
+.quiz-multi-tag {
+  display: inline-block; margin-left: 10px; padding: 3px 10px;
+  background: rgba(255, 181, 71, 0.2); border: 1px solid rgba(255, 181, 71, 0.4);
+  border-radius: 6px; font-size: 12px; color: var(--warn); font-weight: 600;
+}
+.quiz-confirm {
+  margin-top: 12px; width: 100%;
+}
+#quizTimer_display {
+  font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 600;
+}
